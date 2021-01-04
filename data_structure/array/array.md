@@ -11,14 +11,11 @@
     }
  Here **cin.ignore(numeric_limits<streamsize>::max(), '\n')**, ignores the rest of the current line, up to '\n' or EOF - whichever comes first.
  * vector<vector<int>> arr( n , vector<int> (m)); 
- 
-    for(int i = 0; i < n; i++)
-    {
-        for(int j = 0; j < m; j++)
-        {
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
             cin>>arr[i][j];
         }
     }
 
 ## Passing vector as reference
- 
+
