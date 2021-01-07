@@ -19,3 +19,6 @@
 
 ## Passing vector as reference
 
+#### Findind maximum element of a vector: *max_element(arr.begin(),arr.end())
+
+
